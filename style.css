@@ -1,0 +1,432 @@
+body{
+    background-color: #F2EAD3;
+}
+.core{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    opacity: 0;
+}
+.boxPlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBox{
+    background-color: #F4991A;
+    color: #321313;
+    border: 5px solid #321313 ;
+}
+.mainMenu{
+    border: 5px solid #321313;
+    margin-top: 600px;
+    display: flex;
+}
+.boxSmall{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+}
+.colorBoxSmall{
+    background-color: #F4991A;
+    color: #321313;
+    border: 5px solid #321313 ;
+}
+.fontOrange{
+    color:#F4991A
+}
+.logoOpen{
+    background: repeating-linear-gradient(
+        to right,
+        #f6ba52,
+        #f6ba52 10px,
+        #ffd180 10px,
+        #ffd180 20px
+        );
+}
+.openHours{
+    display: flex;
+    background-color: #6f7bd0;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    color: #F2EAD3;
+    font-family: 'McLaren', cursive;
+    font-size: 1.3rem;
+    border-left: 5px solid #321313;
+}
+.smallMargin{
+    margin-left: 5px;
+}
+.adress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2EAD3;
+    background-color: #321313;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 5px solid #321313 ;
+    padding: 10px;
+}
+.adressChild{
+    margin: 5px;
+    text-align: center;
+}
+.nutrients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    border-bottom: 5px solid #321313 ;
+    border-right:5px solid #321313 ;
+}
+.order{
+    display: flex;
+}
+.shorts{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid #321313;
+    border-right: 5px solid #321313 ;
+}
+.length{
+    width:150px;
+    margin-left: 10px;
+    align-self: center;
+    font-family: 'McLaren', cursive;
+    font-size: 15px;
+}
+.fontColor{
+    color: #F2EAD3;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.dColor{
+    background-color: #b64c3c;
+}
+.dairyColor{
+    color:#b64c3c
+}
+.sColor{
+    background-color: #3ca6b6;
+}
+.seafoodColor{
+    color: #3ca6b6;
+}
+.wColor{
+    background-color: #a6b63c;
+}
+.wheatColor{
+    color: #a6b63c;
+}
+.eColor{
+    background-color: #3cb689;
+}
+.eggaColor{
+    color:#F4991A;
+}
+.nColor{
+    background-color: #F4991A;
+}
+.nutsColor{
+    color: #3cb689;
+}
+.foodAndDrinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-left: 5px solid #321313 ;
+    border-right: 5px solid #321313 ;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.drinks{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-left: 5px solid #321313 ;
+}
+
+.headingFood{
+    background-color: #F4991A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    border-bottom: 5px solid #321313;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.headingDrinks{
+    background-color: #F4991A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    border-bottom: 5px solid #321313;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.pokeBowls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+}
+.lattes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 30px;
+}
+.bowl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex:1;
+}
+.CreateBowl{
+    flex: 5;
+}
+.imgWidthBowl{
+    width: 300px;
+}
+.descriptionPoke{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.shortsDescription{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #321313;
+    padding: 3px;
+}
+.shortsDescriptionPosition{
+    display: flex;
+}
+.fontWeightDesc{
+    font-size: 20px;
+}
+.fontFilling{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+    font-weight: 500;
+    font-size: 22px;
+}
+.latte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 20px 20px 20px;
+}
+.imgWidthLatte{
+    width: 150px;
+}
+.pokeName{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'McLaren', cursive;
+    color: #321313;
+    font-size: 30px;
+}
+.latteName{
+    font-family: 'McLaren', cursive;
+    color: #321313;
+    font-size: 20px;
+    align-self: center;
+}
+.fontCalories{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 15px;
+}
+.fontPrice{
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #321313;
+}
+.chooseCreate{
+    font-family: 'McLaren', cursive;
+    color: #321313;
+    font-size: 20px;
+    align-self: center;
+}
+.checkbox{
+    accent-color: #F4991A;
+}
+select{
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    border: 2.5px solid #321313;
+    accent-color: #F4991A;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #321313;
+}
+.wordsFooter{
+    margin: 15px;
+    font-family: 'McLaren', cursive;
+}
+.icons{
+    margin: 15px;;
+}
+
+
+
+/*sweet alert font and siye of text */
+.swal2-popup {
+    font-size: 1.6rem !important;
+    font-family: 'Syncopate', sans-serif;
+}
+
+
+@media all and (max-width:808px){
+    .drinks{
+        border-left: 0px solid #321313 ;
+        border-top: 5px solid #321313 ;
+    }
+    .box{
+        width: 120px;
+        height: 120px;
+        font-size: 80px;
+    }
+}
+
+
+@media all and (max-width:540px){
+    .box{
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+    }
+    .pokeBowls{
+        margin: 5px;
+        padding: 5px;
+    }
+    .imgWidthBowl{
+        width: 190px;
+    }
+    .imgWidthLatte{
+        width: 120px;
+    }
+    .boxSmall{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .openHours{
+        font-size: 0.9rem;
+    }
+    .headingFood{
+        font-size:1.7rem;
+        }
+    .headingDrinks{
+        font-size: 1.7rem;  
+    }
+    .pokeName{
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;   
+    }
+    .latteName{
+        font-size: 20px;  
+    }
+    select{
+        font-size: 15px;
+    }
+    
+}
+@media all and (max-width:401px){
+    .box{
+        width: 70px;
+        height: 70px;
+        font-size: 55px;
+    }
+    .boxSmall{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    select{
+        font-size: 11px;
+    }
+}
+@media all and (max-width:320px){
+    .box{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        opacity: 0;
+    }
+    .imgWidthBowl{
+        width: 120px;
+    }
+    .imgWidthLatte{
+        width: 100px;
+    }
+    .openHours{
+        font-size: 0.5rem;
+    }
+    .headingFood{
+        font-size:1.5rem;
+    
+    }
+    .headingDrinks{
+        font-size: 1rem;  
+    }
+    .pokeName{
+        padding: 3px;
+        margin: 3px;
+        font-size: 15px;
+    }
+    .latteName{
+        font-size: 15px;  
+    }
+    .fontFilling{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    select{
+        font-size: 10px;
+    }
+}
